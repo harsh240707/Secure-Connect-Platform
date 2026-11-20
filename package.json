@@ -1,0 +1,19 @@
+
+{
+  "name": "secure-connect-platform",
+  "version": "1.0.0",
+  "description": "Secure authentication, Notes API and real-time communication platform using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.0.0",
+    "socket.io": "^4.0.0"
+  }
+}
